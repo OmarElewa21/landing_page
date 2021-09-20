@@ -79,10 +79,19 @@ section {
     display: inline-block;
 }
 
-.navbar_link {
-    color: rgb(5, 26, 100);
-    text-decoration: none;
+.navbar_item {
     padding: 10px;
+}
+
+.current_nav_link {
+    background-color: black;
+}
+.current_nav_anchor {
+    color: white;
+}
+
+.navbar_link {
+    text-decoration: none;
 }
 .navbar_link:hover {
     font-weight: 800;
