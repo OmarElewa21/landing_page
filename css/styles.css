@@ -80,7 +80,7 @@ section {
 }
 
 .navbar_item {
-    padding: 10px;
+    padding: 1%;
 }
 
 .current_nav_link {
@@ -88,6 +88,11 @@ section {
 }
 .current_nav_anchor {
     color: white;
+}
+
+.active_section {
+    font-weight: 900;
+    background-color: red;
 }
 
 .navbar_link {
