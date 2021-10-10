@@ -99,13 +99,13 @@ document.addEventListener('scroll', function () {
     doc.style.fontSize   = "larger";
 
     document.getElementsByClassName('landing__container')[1].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[1].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[1].style.fontSize = "medium";
 
     document.getElementsByClassName('landing__container')[2].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[2].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[2].style.fontSize = "medium";
 
     document.getElementsByClassName('landing__container')[3].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[3].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[3].style.fontSize = "medium";
   }
   else if(isInViewport(section2)){
     let doc = document.getElementsByClassName('landing__container')[1];
@@ -113,13 +113,13 @@ document.addEventListener('scroll', function () {
     doc.style.fontSize   = "larger";
 
     document.getElementsByClassName('landing__container')[0].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[0].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[0].style.fontSize = "medium";
 
     document.getElementsByClassName('landing__container')[2].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[2].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[2].style.fontSize = "medium";
 
     document.getElementsByClassName('landing__container')[3].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[3].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[3].style.fontSize = "medium";
   }
   else if(isInViewport(section3)){
     let doc = document.getElementsByClassName('landing__container')[2];
@@ -127,13 +127,13 @@ document.addEventListener('scroll', function () {
     doc.style.fontSize   = "larger";
 
     document.getElementsByClassName('landing__container')[0].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[0].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[0].style.fontSize = "medium";
 
     document.getElementsByClassName('landing__container')[1].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[1].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[1].style.fontSize = "medium";
 
     document.getElementsByClassName('landing__container')[3].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[3].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[3].style.fontSize = "medium";
   }
   else if(isInViewport(section4)){
     let doc = document.getElementsByClassName('landing__container')[3];
@@ -141,13 +141,13 @@ document.addEventListener('scroll', function () {
     doc.style.fontSize   = "larger";
 
     document.getElementsByClassName('landing__container')[0].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[0].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[0].style.fontSize = "medium";
 
     document.getElementsByClassName('landing__container')[1].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[1].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[1].style.fontSize = "medium";
 
     document.getElementsByClassName('landing__container')[2].style.fontStyle = "normal";
-    document.getElementsByClassName('landing__container')[2].style.fontWeight = "medium";
+    document.getElementsByClassName('landing__container')[2].style.fontSize = "medium";
   }
 });
 
