@@ -1,8 +1,13 @@
-# Landing Page
+# Landing Page Project
 
-Landing Page is a simple web page. It is a pracitse on using javascript in manipulating and adding DOM elements.
+## Overview
+This project is a hand run on javascript usage. Its learning objectives is to make a dynamic and interactive one page application via using js.
 
+## Components
+- app.js        => Contains functions that make the site dynamic and insteractive
+- index.html    => Contains HTML content
+- style.css     => Contains CSS content
 
-
-### Installation
-Download the project and open index.html file with any browser.
+## Quick Run
+- Clone or Download the project
+- open index.html via any browser
