@@ -84,22 +84,27 @@ section {
 }
 
 .current_nav_link {
-    background-color: black;
+    background-color: lightblue;
 }
-.current_nav_anchor {
-    color: white;
-}
+
 
 .active_section {
     font-weight: 900;
     background-color: red;
 }
 
+.navbar__list{
+    position: fixed;
+}
+
 .navbar_link {
+    color: black;
     text-decoration: none;
 }
 .navbar_link:hover {
     font-weight: 800;
+    cursor: pointer;
+    color: darkblue;
 }
 
 .navbar__menu .menu__link {
